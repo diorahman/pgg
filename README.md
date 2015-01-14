@@ -1,6 +1,6 @@
-# ObjWrap
+# Pgg
 
-This is a boilerplate of node binding extending the node::ObjectWrap. It uses nan.
+It uses nan.
 
 ## License
 
