@@ -1,0 +1,38 @@
+{
+  "name": "pgg",
+  "version": "1.0.0",
+  "description": "Privacy guard glory",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^1.4.1",
+    "should": "^4.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.4"
+  },
+  "scripts": {
+    "test": "make test",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockybars/pgg.git"
+  },
+  "keywords": [
+    "pgg",
+    "gpg",
+    "pgp"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/rockybars/pgg/issues"
+  },
+  "homepage": "https://github.com/rockybars/pgg"
+}
